@@ -1,0 +1,30 @@
+New York: 75
+Los Angeles: 80
+Chicago: 70
+Houston: 85
+San Francisco: 65
+Seattle: 60
+Miami: 90
+Boston: 72
+Dallas: 82
+Denver: 68
+Phoenix: 95
+Philadelphia: 78
+Atlanta: 85
+Las Vegas: 90
+San Diego: 75
+Washington, D.C.: 80
+Orlando: 88
+Austin: 85
+San Antonio: 88
+Minneapolis: 68
+Detroit: 75
+Portland: 65
+St. Louis: 80
+Tampa: 88
+Kansas City: 82
+Charlotte: 78
+Cleveland: 72
+Cincinnati: 75
+Indianapolis: 78
+Nashville: 82
