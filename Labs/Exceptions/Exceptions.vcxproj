@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cc7884a7-a19b-4945-9002-a6c09a11b537}</ProjectGuid>
-    <RootNamespace>FirstClass</RootNamespace>
+    <ProjectGuid>{059E89F4-E52B-4E7B-9A17-FEB5DCEED3C7}</ProjectGuid>
+    <RootNamespace>Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,7 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstClass.cpp" />
+    <ClInclude Include="Contractor.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="HumanResource.h" />
+    <ClInclude Include="PayrollProcessor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exceptions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />

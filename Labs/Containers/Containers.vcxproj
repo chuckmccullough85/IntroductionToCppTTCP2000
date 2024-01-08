@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cc7884a7-a19b-4945-9002-a6c09a11b537}</ProjectGuid>
+    <ProjectGuid>{D1B13492-766D-4E47-91E9-15BD3DC7A9DD}</ProjectGuid>
     <RootNamespace>FirstClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,7 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstClass.cpp" />
+    <ClCompile Include="Containers.cpp" />
+    <ClCompile Include="Temperature.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Temperature.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />

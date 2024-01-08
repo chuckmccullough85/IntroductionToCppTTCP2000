@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cc7884a7-a19b-4945-9002-a6c09a11b537}</ProjectGuid>
-    <RootNamespace>FirstClass</RootNamespace>
+    <ProjectGuid>{D8AA16B3-CE1C-46F6-95D2-5A108FAD4C5D}</ProjectGuid>
+    <RootNamespace>Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstClass.cpp" />
+    <ClCompile Include="Polymorphism.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Contractor.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="HumanResource.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />

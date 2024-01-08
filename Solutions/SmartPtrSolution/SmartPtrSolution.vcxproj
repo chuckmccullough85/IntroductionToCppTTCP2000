@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cc7884a7-a19b-4945-9002-a6c09a11b537}</ProjectGuid>
+    <ProjectGuid>{AD8B99EE-547B-4F35-B2AB-E3D78008587C}</ProjectGuid>
     <RootNamespace>FirstClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,10 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstClass.cpp" />
+    <ClCompile Include="SmartPtr.cpp" />
+    <ClCompile Include="Temperature.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Readme.md" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Temperature.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
